@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     //saved es el nombre que queremos
     //bundle es el tipo de dato
     //? es la creacion de la excepcion, garantiza que no haya un dato null en el modelo
+    //hola que tal como estan
     override fun onCreate(nombre: Bundle?) {
         super.onCreate(nombre)
         setContentView(R.layout.activity_main)
